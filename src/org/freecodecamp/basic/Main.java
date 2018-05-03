@@ -7,6 +7,7 @@ public class Main {
 	    Algorithms algs = new Algorithms();
 	    
 	    testReverseString(algs);
+	    testFactorialize(algs);
 	    
     }
     
@@ -18,5 +19,16 @@ public class Main {
         assert algs.reverseString("Howdy").equals("ydwoH");
         assert algs.reverseString("Greetings from Earth").equals("htraE morf sgniteerG");
 	    System.out.println("Reverse String Passed");   
+    }
+    
+    static void testFactorialize(Algorithms algs) {
+        System.out.println("Testing Factorialize");
+        // return int
+        assert Integer.class.isInstance(algs.factorialize(5));
+        // 5 return 120
+        // 10 return 3628800
+        // 20 return 2432902008176640000
+        // 0 return 1
+        System.out.println("Factorialize passed");
     }
 }
