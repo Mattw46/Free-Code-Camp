@@ -13,9 +13,10 @@ public class Main {
     static void testReverseString(Algorithms algs) {
         System.out.println("Testing Reverse String");
 	    assert algs.reverseString("Hello") instanceof String;
-	    System.out.println("reverse of \"Hello\": " + algs.reverseString("Hello"));
         assert algs.reverseString("Hello").equals("olleH");
         //assert algs.reverseString("Hello").equals("elloh");
+        assert algs.reverseString("Howdy").equals("ydwoH");
+        assert algs.reverseString("Greetings from Earth").equals("htraE morf sgniteerG");
 	    System.out.println("Reverse String Passed");   
     }
 }
