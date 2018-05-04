@@ -4,10 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 	    // write your code here
-	    Algorithms algs = new Algorithms();
+	    /*Algorithms algs = new Algorithms();
 	    
 	    testReverseString(algs);
-	    testFactorialize(algs);
+	    testFactorialize(algs);*/
 	    
     }
     
