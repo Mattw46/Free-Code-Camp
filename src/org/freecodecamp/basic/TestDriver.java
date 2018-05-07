@@ -5,5 +5,8 @@ package org.freecodecamp.basic;
  */
 public class TestDriver {
     
-    
+    public void runTests() {
+        ReverseString rs = new ReverseString();
+        rs.testReverseString();
+    }
 }
