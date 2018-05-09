@@ -26,6 +26,15 @@ public class TestDriver {
             return false;
         }
         
+        Palindrome p = new Palindrome();
+        try {
+            p.testPalindrome();
+        } catch (AssertionError ae) {
+            System.out.println("\nPalindrome: Assertion failed");
+            System.out.print("Check which test failed and fix\n\n" +
+                "Will now exit");            
+        }
+        
         // only return once all tests have passed
         return true;
     }
