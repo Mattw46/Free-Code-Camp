@@ -20,9 +20,10 @@ public class TestDriver {
         try {
             fact.testFactorialize();
         } catch (AssertionError ae) {
-            System.out.println("\nFactorialize: Assertion failed");
+            System.out.println("\nFactorial: Assertion failed");
             System.out.print("Check which test failed and fix\n\n" +
                 "Will now exit");
+            return false;
         }
         
         // only return once all tests have passed
