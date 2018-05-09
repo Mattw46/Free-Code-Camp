@@ -6,7 +6,7 @@ public class ReverseString {
         return new StringBuilder(str).reverse().toString();
     }
     
-    void testReverseString() throws AssertionError {
+    public void testReverseString() throws AssertionError {
         System.out.println("Testing Reverse String");
 	    assert reverseString("Hello") instanceof String;
         assert reverseString("Hello").equals("olleH");
