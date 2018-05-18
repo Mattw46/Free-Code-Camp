@@ -32,7 +32,8 @@ public class TestDriver {
         } catch (AssertionError ae) {
             System.out.println("\nPalindrome: Assertion failed");
             System.out.print("Check which test failed and fix\n\n" +
-                "Will now exit");            
+                "Will now exit");   
+            return false;
         }
         
         // only return once all tests have passed
